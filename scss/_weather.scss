@@ -1,0 +1,18 @@
+#weather {
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+    #weather-icon {
+        font-size: 1rem;
+    }
+
+    #weather-temp,
+    #weather-description {
+        margin-right: 10px;
+    }
+
+    #weather-description {
+        text-transform: capitalize;
+    }
+}
